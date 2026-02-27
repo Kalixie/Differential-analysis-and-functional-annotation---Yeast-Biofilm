@@ -1,3 +1,5 @@
+#!/bin/bash
+
 conda install fastqc 
 
 fastqc *.fastq
@@ -37,6 +39,7 @@ do
 done
 
 # Now have quant.sf files need for R
+
 
 
 
