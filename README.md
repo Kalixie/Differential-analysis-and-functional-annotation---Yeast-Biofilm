@@ -15,4 +15,16 @@ To interpret the biological significance of discovered differentially expressed 
 
 ## Methods
 
+### Data acquisition and preprocessing
+
+Raw RNA-seq data for nine samples representing three velum developmental stages (early, thin, and mature) were obtained from a previous study (https://doi.org/10.3389/fmicb.2020.00538). Sequence reads were converted to FASTQ format using SRA tools (v. 3.2.1). Quality assessment was performed using FastQC (v. 0.12.1) to evaluate read quality. Although read trimming was performed using fastp (v. 1.1.0), post-trimming quality metrics showed no improvement in data therefore, original reads were used for downstream analysis.
+
+### Transcript quantification
+
+Transcript abundance was quantified using Salmon (v. 1.10.3). The reference transcriptome for Saccharomyces cerevisiae (R64 assembly) was downloaded from NCBI and indexed using Salmon’s indexing function. Each FASTQ file was then processed with the automatic library flag and the threads flag. The tximport package in R was used for isolating gene-level counts, and a transcript-to-gene mapping table was generated from the associated GTF file retrieved from NCBI. 
+
+### Differential expression analysis
+
+
+
 ### Read Acquisition 
