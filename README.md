@@ -43,5 +43,11 @@ The results of the volcano plots demonstrated that Mature vs Early showed the la
 
 The results of the heatmaps generated depict how specific gene logfoldchange values vary between stages for the top 20 differentially expressed genes. One group of genes was highly expressed in Early samples and downregulated in Thin and Mature stages which included genes such as YGR088W and YGR087C. Another group showed the opposite trend, with low expression in Early stages and higher expression in Mature stages, and included genes such as YNR073C and YNR072W. 
 
+Gene Ontology (GO) overrepresentation analysis identified enriched biological processes across pairwise stage comparisons. In the Mature vs Early comparison, upregulated genes were enriched for mitochondrial associated processes, including mitochondrial organization, mitochondrial respiratory chain complex assembly, mitochondrial translation, and energy derivation by oxidation of organic compounds. Downregulated genes were enriched for metabolic and transport related processes, including transmembrane transport, lipid metabolism, monocarboxylic acid metabolism, organic acid metabolism, and oxoacid metabolism. For Mature vs Thin, energy reserve and glycogen metabolic processes were observed to be upregulated, while lipid biosynthetic and metabolic processes and transmembrane transport were downregulated. The upregulation of cytoplasmic translation and ribosome biogenesis was showcased by Thin vs Early, with downregulation of nicotinamide and pyridine nucleotide metabolic processes.
+
+For the KEGG analysis, in the Mature vs Early comparison, significantly enriched upregulated pathways included ribosome, proteasome, citrate cycle (TCA cycle), oxidative phosphorylation, and biosynthesis of secondary metabolites. Downregulated pathways were enriched for the biosynthesis of secondary metabolites, fatty acid metabolism, and glycolysis/gluconeogenesis, and carbon metabolism. Similar patterns were observed in the Thin vs Early comparison, although fewer terms reached significance relative to the Mature vs Early contrast. Mature vs Thin included upregulated genes related to metabolic processes such as Starch and sucrose, beta-Alanine, Glycerolipid. Downregulated included fatty acid and carbon metabolism.   
+
+## Discussion
+
 
 
