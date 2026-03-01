@@ -1,9 +1,0 @@
-{
-    "salmon_version": "1.10.3",
-    "index": "yeastindex",
-    "libType": "A",
-    "unmatedReads": "SRR10551661.fastq",
-    "threads": "4",
-    "output": "SRR10551661_quant",
-    "auxDir": "aux_info"
-}
