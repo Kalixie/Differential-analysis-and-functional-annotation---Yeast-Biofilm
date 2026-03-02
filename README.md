@@ -119,3 +119,40 @@ Overrepresentation analysis provided biological pathway and process information 
 
 ​
 The KEGG pathway enrichment results included upregulated pathways related to the ribosome, proteasome, TCA cycle, and oxidative phosphorylation. Downregulated pathways included those related to the biosynthesis of secondary metabolites, glycolysis, fatty acid metabolism, and carbon metabolism. Previous findings report that biofilm cells undergo transcriptional reprogramming to support structural matrix changes when forming biofilms (Mundodi et al., 2015). Ribosomes support the production of proteins required for biofilm formation, as demonstrated by the high upregulation identified through KEGG analysis. The enrichment of proteasome pathways indicates that protein quality control is also an essential process during this stage. TCA cycle upregulation is consistent with biofilm development to support growth conditions (Gaupp et al., 2010). 
+
+## References
+
+Alexandre H. (2013). Flor yeasts of Saccharomyces cerevisiae--their ecology, genetics and metabolism. International journal of food microbiology, 167(2), 269–275. https://doi.org/10.1016/j.ijfoodmicro.2013.08.021
+
+Andrews, S. (2010). FastQC: A Quality Control Tool for High Throughput Sequence Data [Computer software]. Babraham Bioinformatics. http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+Chen, S., Zhou, Y., Chen, Y., & Gu, J. (2018). fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics (Oxford, England), 34(17), i884–i890. https://doi.org/10.1093/bioinformatics/bty560
+
+Gaupp, R., Schlag, S., Liebeke, M., Lalk, M., & Götz, F. (2010). Advantage of upregulation of succinate dehydrogenase in Staphylococcus aureus biofilms. Journal of bacteriology, 192(9), 2385–2394.
+
+Hohmann S. (1991). Characterization of PDC6, a third structural gene for pyruvate decarboxylase in Saccharomyces cerevisiae. Journal of bacteriology, 173(24), 7963–7969. https://doi.org/10.1128/jb.173.24.7963-7969.1991
+
+Jordan, P., Choe, J. Y., Boles, E., & Oreb, M. (2016). Hxt13, Hxt15, Hxt16 and Hxt17 from Saccharomyces cerevisiae represent a novel type of polyol transporters. Scientific reports, 6, 23502. https://doi.org/10.1038/srep23502
+
+Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+
+Mardanov AV, Eldarov MA, Beletsky AV, Tanashchuk TN, Kishkovskaya SA and Ravin NV (2020) Transcriptome Profile of Yeast Strain Used for Biological Wine Aging Revealed Dynamic Changes of Gene Expression in Course of Flor Development. Front. Microbiol. 11:538. doi: 10.3389/fmicb.2020.00538
+
+Mardanov, A. V., Eldarov, M. A., Beletsky, A. V., Tanashchuk, T. N., Kishkovskaya, S. A., & Ravin, N. V. (2020). Transcriptome Profile of Yeast Strain Used for Biological Wine Aging Revealed Dynamic Changes of Gene Expression in Course of Flor Development. Frontiers in microbiology, 11, 538. https://doi.org/10.3389/fmicb.2020.00538
+
+Mundodi, V., Choudhary, S., Smith, A. D., & Kadosh, D. (2025). Ribosome profiling reveals differences in global translational vs transcriptional gene expression changes during early Candida albicans biofilm formation. Microbiology spectrum, 13(3), e0219524. https://doi.org/10.1128/spectrum.02195-24
+
+National Center for Biotechnology Information (NCBI). (2026). SRA Toolkit. GitHub. https://github.com/ncbi/sra-tools
+
+Patro, R., Duggal, G., Love, M. I., Irizarry, R. A., & Kingsford, C. (2017). Salmon provides fast and bias-aware quantification of transcript expression. Nature methods, 14(4), 417–419. https://doi.org/10.1038/nmeth.4197
+
+Rapaport, F., Khanin, R., Liang, Y., Pirun, M., Krek, A., Zumbo, P., Mason, C. E., Socci, N. D., & Betel, D. (2013). Comprehensive evaluation of differential gene expression analysis methods for RNA-seq data. Genome biology, 14(9), R95. https://doi.org/10.1186/gb-2013-14-9-r95
+
+Soneson, C., Love, M. I., & Robinson, M. D. (2015). Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research, 4, 1521. https://doi.org/10.12688/f1000research.7563.2
+
+Vandenbosch, D., De Canck, E., Dhondt, I., Rigole, P., Nelis, H. J., & Coenye, T. (2013). Genomewide screening for genes involved in biofilm formation and miconazole susceptibility in Saccharomyces cerevisiae. FEMS yeast research, 13(8), 720–730. https://doi.org/10.1111/1567-1364.12071
+
+Young, M.D., Wakefield, M.J., Smyth, G.K. et al. Gene ontology analysis for RNA-seq: accounting for selection bias. Genome Biol 11, R14 (2010). https://doi.org/10.1186/gb-2010-11-2-r14
+
+Yu, G., Wang, L. G., Han, Y., & He, Q. Y. (2012). clusterProfiler: an R package for comparing biological themes among gene clusters. Omics : a journal of integrative biology, 16(5), 284–287. https://doi.org/10.1089/omi.2011.0118
+
