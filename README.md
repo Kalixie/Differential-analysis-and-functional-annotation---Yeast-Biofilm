@@ -162,8 +162,6 @@ Jordan, P., Choe, J. Y., Boles, E., & Oreb, M. (2016). Hxt13, Hxt15, Hxt16 and H
 
 Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
 
-Mardanov AV, Eldarov MA, Beletsky AV, Tanashchuk TN, Kishkovskaya SA and Ravin NV (2020) Transcriptome Profile of Yeast Strain Used for Biological Wine Aging Revealed Dynamic Changes of Gene Expression in Course of Flor Development. Front. Microbiol. 11:538. doi: 10.3389/fmicb.2020.00538
-
 Mardanov, A. V., Eldarov, M. A., Beletsky, A. V., Tanashchuk, T. N., Kishkovskaya, S. A., & Ravin, N. V. (2020). Transcriptome Profile of Yeast Strain Used for Biological Wine Aging Revealed Dynamic Changes of Gene Expression in Course of Flor Development. Frontiers in microbiology, 11, 538. https://doi.org/10.3389/fmicb.2020.00538
 
 Mundodi, V., Choudhary, S., Smith, A. D., & Kadosh, D. (2025). Ribosome profiling reveals differences in global translational vs transcriptional gene expression changes during early Candida albicans biofilm formation. Microbiology spectrum, 13(3), e0219524. https://doi.org/10.1128/spectrum.02195-24
