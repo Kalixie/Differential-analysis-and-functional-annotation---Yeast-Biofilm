@@ -175,7 +175,7 @@ grid.arrange(p1, p2, p3, ncol = 1)
 plotheatmap <- function(res_object, vsd, dds, n_genes = 20, title = "Top DE Genes") {
   res_clean <- na.omit(res_object)
 
-  top_indices <- head(order(res_clean$padj), n_genes)
+  top_indices <- head(order(res_clean$padj), n_genes, decreasing = FALSE)
   gene_names <- rownames(res_clean)[top_indices]
 
   mat <- assay(vsd)[gene_names, ]
@@ -191,7 +191,7 @@ plotheatmap <- function(res_object, vsd, dds, n_genes = 20, title = "Top DE Gene
     cluster_rows = TRUE,
     cluster_cols = TRUE,
     show_rownames = TRUE,
-    show_colnames = FALSE
+    show_colnames = TRUE
   )
 }
 
@@ -372,10 +372,6 @@ keggenrichment <- function(df) {
   return(kegg_enrich)
 }
 
-kegg_MvE <- keggenrichment(df_MvE)
-
-dotplot(kegg_MvE, showCategory = 10)
-
 # Run KEGG for each comparison
 
 kegg_MvE <- keggenrichment(df_MvE)
@@ -384,20 +380,11 @@ kegg_MvT <- keggenrichment(df_MvT)
 
 # Visualize KEGG Enrichment Results
 
-dotplot(kegg_MvE,
-  showCategory = 10,
-  title = "KEGG: Mature vs Early"
-)
+dotplot(kegg_MvE, showCategory = 10, title = "KEGG: Mature vs Early")
 
-dotplot(kegg_TvE,
-  showCategory = 10,
-  title = "KEGG: Thin vs Early"
-)
+dotplot(kegg_TvE, showCategory = 10, title = "KEGG: Thin vs Early")
 
-dotplot(kegg_MvT,
-  showCategory = 10,
-  title = "KEGG: Mature vs Thin"
-)
+dotplot(kegg_MvT, showCategory = 10, title = "KEGG: Mature vs Thin")
 
 # KEGG compare plots
 
@@ -440,7 +427,7 @@ kegg_compare_TvE <- keggcompare(df_TvE)
 
 kegg_compare_MvT <- keggcompare(df_MvT)
 
-# Plot the KEGG enrichment results
+# Plot the KEGG enrichment result comparisons
 
 dotplot(kegg_compare_MvE, showCategory = 5, title = "KEGG: Mature vs Early (Up vs Downregulated)")
 
