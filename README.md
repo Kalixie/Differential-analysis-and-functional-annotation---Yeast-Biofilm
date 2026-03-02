@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through the use of Saccharomyces cerevisiae velum RNA samples, this study aimed to explore the transcriptional changes associated with three different sampling points. Biofilm formation is a survival strategy used by many microorganisms including Saccharomyces cerevisiae, and allows cells to survive harsh environments through altered gene expression (Mardanov et al., 2020). By studying biofilm at the early, thin formation, and mature stages, it is possible to analyze how gene expression changes over time, and what biological processes are associated with said genes. 
+Through the use of Saccharomyces cerevisiae velum RNA samples, this study aimed to explore the transcriptional changes associated with three different sampling points. Biofilm formation is a survival strategy used by many microorganisms including Saccharomyces cerevisiae, and allows cells to survive harsh environments through altered gene expression (Mardanov et al., 2020). By studying biofilm at the early (38 days), thin formation (83 days), and mature stages (109 days), it is possible to analyze how gene expression changes over time, and what biological processes are associated with said genes. 
 
 The data used in this study were collected from publicly available bulk RNA sequencing data from three stages of velum development (early, thin, and mature), each with three replicates. 
 Several computational tools were selected to complete an efficient analysis of the data. 
@@ -107,5 +107,10 @@ For the KEGG analysis, in the Mature vs Early comparison, significantly enriched
 
 ## Discussion
 
+Biofilm formation along with related metabolic changes, helps yeast survive harsh conditions such as high ethanol levels and low nutrient availability (Alexandre, 2013). Between the Mature and Early biofilm stages, 1010 upregulated and 862 downregulated genes were identified. This indicates that transcriptional change occurs during biofilm maturation. In contrast, the Thin vs Early and Mature vs Thin comparison showed fewer significant changes, suggesting that the Thin stage represents a transitional biofilm phase between both states. 
+
+The PCA results further supported this interpretation. Samples clustered strongly by stage, confirming that stage acts as a source of variation in the dataset. Mature and thin samples formed the most distinct clusters, while Thin had a more spread out cluster suggesting greater variation within that sample group consistent with its presence as an in-between state of development. 
+
+Heatmap visualization of the top 20 differentially expressed genes further depicted stage specific expression patterns. The Mature vs Early comparison showcased fold changes with high contrast between early growth and fully established biofilm states.YGR087C (PDC6) was found to be downregulated in mature samples and more highly expressed in early biofilm stages and codes for an isoenzyme of pyruvate decarboxylase. Pyruvate decarboxylase is involved in the alcoholic fermentation for Saccharomyces cerevisiae, with previous studies identifying its higher presence during the early growth of yeast in ethanol medium (Hohmann, 1991). Upregulated genes between the Mature and Early stages included YNR072W or hexose transporter HXT17. Hxt17 is a transporter for sorbitol and mannitol and its upregulation during mature stages suggests a reliance on transport of alternative carbon sources during stressful conditions (Jordan et al., 2016) (Mardanov et al., 2020). 
 
 
