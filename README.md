@@ -24,7 +24,7 @@ Transcript abundance was quantified using Salmon (v. 1.10.3) (Patro et al., 2017
 
 ### Differential expression analysis
 
-Gene counts were then analyzed with DESeq2. Pairwise comparisons were performed between developmental stages to identify genes significantly up or downregulated during biofilm progression at each stage. Genes were considered differentially expressed if they met thresholds of adjusted p-value < 0.05 and absolute log2 fold change > 1. 
+Gene counts were then analyzed with DESeq2 (v. 1.48.1) (Love et al., 2014). Pairwise comparisons were performed between developmental stages to identify genes significantly up or downregulated during biofilm progression at each stage. Genes were considered differentially expressed if they met thresholds of adjusted p-value < 0.05 and absolute log2 fold change > 1. 
 
 ### Data visualization
 
@@ -32,7 +32,7 @@ Principal component analysis (PCA) was performed on count data to examine overal
 
 ### Functional enrichment analysis
 
-Biological interpretation of differentially expressed genes was performed using over-representation analysis (ORA) with the clusterProfiler package. Significant genes were compared against a background set consisting of all genes tested in the differential expression analysis. Gene Ontology Biological Process terms were evaluated to identify biological pathways enriched among upregulated and downregulated genes. Results were visualized using bar plots and dot plots.
+Biological interpretation of differentially expressed genes was performed using over-representation analysis (ORA) with the clusterProfiler (v. 4.16.0) (Yu et al., 2012) package. Significant genes were compared against a background set consisting of all genes tested in the differential expression analysis. Gene Ontology and KEGG were used identify biological pathways and processes enriched among upregulated and downregulated genes. Results were visualized using bar plots and dot plots.
 
 ## Results
 
