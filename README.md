@@ -45,7 +45,7 @@ Biological interpretation of differentially expressed genes was performed using 
 
 ##### Figure #1: PCA Results for Early, Thin, and Mature stages. Clusters can be distinctly identified with PC one accounting for 67% of the variance seen, and PC two accounting for 25%
 
-The results of the Principal component analysis revealed large differences in gene expression among the three developmental stages. The first principal component explained 67% of the total variance and clearly separated samples, with Early samples clustering on the negative side and Mature samples clustering on the positive side, with great distinction. Thin stage samples were positioned between Early and Mature stages, which aligns with it acting as an intermediate developmental state. The second principal component, which accounted for 26% of the variance, further distinguished the Thin samples from the other stages. Replicates within each stage clustered tightly together, indicating groups had low variability within themselves, although the thin group was slightly more spread out. Overall, the PCA demonstrates a difference across stage data that follows a clear progression from Early to Thin to Mature.
+The results of the Principal component analysis revealed differences in gene expression among the three developmental stages. The first principal component explained 67% of the total variance and clearly separated samples, with Early samples clustering on the negative side and Mature samples clustering on the positive side, with clear distinction (Figure 1). Thin stage samples were positioned between Early and Mature stages, which aligns with it acting as an intermediate developmental state. The second principal component, which accounted for 26% of the variance, further distinguished the Thin samples from the other stages. Replicates within each stage clustered tightly together, indicating groups had low variability within themselves, although the thin group was slightly more spread out. Overall, the PCA demonstrates a difference across stage data that progresses from Early to Thin to Mature.
 
 ##### Table #1: Summary of differentially expressed genes across biofilm developmental stages. The table shows the number of genes significantly upregulated, downregulated, and the total number of significant genes for each pairwise comparison.
 
@@ -59,13 +59,51 @@ The results of the Principal component analysis revealed large differences in ge
 
 </div>
 
-The results of the volcano plots demonstrated that Mature vs Early showed the largest number of significantly differentially expressed genes at 1872, with large fold changes. The widespread along both axes showcases substantial transcriptional changes between early and mature stages. The Thin vs Early also depicted a large number of differentially expressed genes (1126) with a lower magnitude than Mature vs Early, yet similar upregulated (594) and downregulated (532) counts. Mature vs Thin had fewer downregulated genes (588) in comparison to upregulated genes (731) for a total of 1319 significant genes. These volcano plots suggest a transcriptional shift during development, with the largest changes occurring between the Early and Mature stages.
+<div align="center">
+
+![volcano](https://github.com/Kalixie/Differential-analysis-and-functional-annotation---Yeast-Biofilm/blob/main/figures/volcanoplots.png)
+
+</div>
+
+##### Figure #2: Volcano Plot Results for Mature vs Early, Thin vs Early, and Mature vs Thin stages. Log2 Fold Change can be seen on the X-axis, measuring the magnitude of gene expression change. The Y-axis depicts the -log10 p-value, demonstrating the significance levels for each gene.
+
+The results of the volcano plots demonstrated that Mature vs Early showed the largest number of significantly differentially expressed genes at 1872, with large fold changes. The spread across both axes depicts high up and downregulation of genes between early and mature stages. The Thin vs Early also depicted a large number of differentially expressed genes (1126) with a lower magnitude than Mature vs Early, yet similar upregulated (594) and downregulated (532) counts. Mature vs Thin had fewer downregulated genes (588) in comparison to upregulated genes (731) for a total of 1319 significant genes. These volcano plots suggest a transcriptional shift during development, with the largest changes occurring between the Early and Mature stages.
+
+</div>
+
+<div align="center">
+
+![heatmap MvE](https://github.com/Kalixie/Differential-analysis-and-functional-annotation---Yeast-Biofilm/blob/main/figures/Heatmap_MvE.png)
+
+</div>
+
+##### Figure #3: Heatmap Results for the top 20 genes based on padj for the Mature vs Early stage. Red indicates higher expression, while blue indicates lower expression patterns. Gene names are listed on the right, and sample IDs are included below.
 
 The results of the heatmaps generated depict how specific gene logfoldchange values vary between stages for the top 20 differentially expressed genes. One group of genes was highly expressed in Early samples and downregulated in Thin and Mature stages which included genes such as YGR088W and YGR087C. Another group showed the opposite trend, with low expression in Early stages and higher expression in Mature stages, and included genes such as YNR073C and YNR072W. 
 
+</div>
+
+<div align="center">
+
+![GO MvE](https://github.com/Kalixie/Differential-analysis-and-functional-annotation---Yeast-Biofilm/blob/main/figures/GOcomparison_MvE.png)
+
+</div>
+
+##### Figure #4: GO Overrepresentation Analysis Results for the top 5 pathways based on padj for the Mature vs Early stage. The dot size shows the gene ratio, and the y-axis lists the top enriched terms. Color indicates adjusted p-value value. Upregulated and downregulated genes are displayed separately on the x-axis with counts.
+
 Gene Ontology (GO) overrepresentation analysis identified enriched biological processes across pairwise stage comparisons. In the Mature vs Early comparison, upregulated genes were enriched for mitochondrial associated processes, including mitochondrial organization, mitochondrial respiratory chain complex assembly, mitochondrial translation, and energy derivation by oxidation of organic compounds. Downregulated genes were enriched for metabolic and transport related processes, including transmembrane transport, lipid metabolism, monocarboxylic acid metabolism, organic acid metabolism, and oxoacid metabolism. For Mature vs Thin, energy reserve and glycogen metabolic processes were observed to be upregulated, while lipid biosynthetic and metabolic processes and transmembrane transport were downregulated. The upregulation of cytoplasmic translation and ribosome biogenesis was showcased by Thin vs Early, with downregulation of nicotinamide and pyridine nucleotide metabolic processes.
 
-For the KEGG analysis, in the Mature vs Early comparison, significantly enriched upregulated pathways included ribosome, proteasome, citrate cycle (TCA cycle), oxidative phosphorylation, and biosynthesis of secondary metabolites. Downregulated pathways were enriched for the biosynthesis of secondary metabolites, fatty acid metabolism, and glycolysis/gluconeogenesis, and carbon metabolism. Similar patterns were observed in the Thin vs Early comparison, although fewer terms reached significance relative to the Mature vs Early contrast. Mature vs Thin included upregulated genes related to metabolic processes such as Starch and sucrose, beta-Alanine, Glycerolipid. Downregulated included fatty acid and carbon metabolism.   
+</div>
+
+<div align="center">
+
+![KEGG MvE](https://github.com/Kalixie/Differential-analysis-and-functional-annotation---Yeast-Biofilm/blob/main/figures/KEGGcomparison_MvE.png)
+
+</div>
+
+##### Figure #5: KEGG Overrepresentation Analysis Results for the top 5 pathways based on padj for the Mature vs Early stage. The dot size shows the gene ratio, and the y-axis lists the top related pathways. Color indicates adjusted p-value value. Upregulated and downregulated genes are displayed separately on the x-axis with counts.
+
+For the KEGG analysis, in the Mature vs Early comparison, significantly enriched upregulated pathways included ribosome, proteasome, citrate cycle (TCA cycle), oxidative phosphorylation, and biosynthesis of secondary metabolites. Downregulated pathways were enriched for the biosynthesis of secondary metabolites, fatty acid metabolism, and glycolysis/gluconeogenesis, and carbon metabolism. Similar patterns were observed in the Thin vs Early comparison, although fewer terms reached significance relative to the Mature vs Early stages. Mature vs Thin included upregulated genes related to metabolic processes involving Starch and sucrose, beta-Alanine, and Glycerolipids. Downregulated genes involved processes related to fatty acid and carbon metabolism.   
 
 ## Discussion
 
