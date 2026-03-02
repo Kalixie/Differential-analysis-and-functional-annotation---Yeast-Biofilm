@@ -40,12 +40,15 @@ Biological interpretation of differentially expressed genes was performed using 
 The results of the Principal component analysis revealed large differences in gene expression among the three developmental stages. The first principal component explained 67% of the total variance and clearly separated samples, with Early samples clustering on the negative side and Mature samples clustering on the positive side, with great distinction. Thin stage samples were positioned between Early and Mature stages, which aligns with it acting as an intermediate developmental state. The second principal component, which accounted for 26% of the variance, further distinguished the Thin samples from the other stages. Replicates within each stage clustered tightly together, indicating groups had low variability within themselves, although the thin group was slightly more spread out. Overall, the PCA demonstrates a difference across stage data that follows a clear progression from Early to Thin to Mature.
 
 ##### Table #1: Summary of differentially expressed genes across biofilm developmental stages. The table shows the number of genes significantly upregulated, downregulated, and the total number of significant genes for each pairwise comparison.
+
 <div align="center">
+  
 | Comparison      | Upregulated | Downregulated | Total Significant |
 |-----------------|-------------|---------------|-------------------|
 | Mature vs Early | 1010        | 862           | 1872              |
 | Thin vs Early   | 594         | 532           | 1126              |
 | Mature vs Thin  | 731         | 588           | 1319              |
+
 </div>
 
 The results of the volcano plots demonstrated that Mature vs Early showed the largest number of significantly differentially expressed genes at 1872, with large fold changes. The widespread along both axes showcases substantial transcriptional changes between early and mature stages. The Thin vs Early also depicted a large number of differentially expressed genes (1126) with a lower magnitude than Mature vs Early, yet similar upregulated (594) and downregulated (532) counts. Mature vs Thin had fewer downregulated genes (588) in comparison to upregulated genes (731) for a total of 1319 significant genes. These volcano plots suggest a transcriptional shift during development, with the largest changes occurring between the Early and Mature stages.
