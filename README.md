@@ -104,7 +104,7 @@ The results of the volcano plots demonstrated that Mature vs Early showed the la
 
 </div>
 
-The results of the heatmaps generated depict how specific gene logfoldchange values vary between stages for the top 20 differentially expressed genes. One group of genes was highly expressed in Early samples and downregulated in Thin and Mature stages which included genes such as YGR088W and YGR087C. Another group showed the opposite trend, with low expression in Early stages and higher expression in Mature stages, and included genes such as YNR073C and YNR072W. 
+The results of the heatmaps generated depict how specific gene logfoldchange values vary between stages for the top 20 differentially expressed genes. Certain genes were highly expressed in Early samples and downregulated in Thin and Mature stages which included genes such as YGR088W and YGR087C (Table 2 & Figure 3). Another group showed the opposite trend, with low expression in Early stages and higher expression in Mature stages, and included genes such as YNR073C and YNR072W (Table 2 & Figure 3). 
 
 </div>
 
