@@ -16,7 +16,7 @@ To interpret the biological significance of discovered differentially expressed 
 
 ### Data acquisition and preprocessing
 
-Raw RNA-seq data for nine samples representing three velum developmental stages (early, thin, and mature) were obtained from a previous study (https://doi.org/10.3389/fmicb.2020.00538). Sequence reads were converted to FASTQ format using SRA tools (v. 3.2.1) (NCBI, 2026). Quality assessment was performed using FastQC (v. 0.12.1) (Andrews, 2010) to evaluate read quality. Although read trimming was performed using fastp (v. 1.1.0) (Chen et al., 2018), post-trimming quality metrics showed no improvement in data therefore, original reads were used for downstream analysis.
+Raw RNA-seq data for nine samples representing three velum developmental stages (early, thin, and mature) were obtained from a previous study (https://doi.org/10.3389/fmicb.2020.00538). Sequence reads were converted to FASTQ format using SRA toolkit (v. 3.2.1) (NCBI, 2026). Quality assessment was performed using FastQC (v. 0.12.1) (Andrews, 2010) to evaluate read quality. Although read trimming was performed using fastp (v. 1.1.0) (Chen et al., 2018), post-trimming quality metrics showed no improvement in data therefore, original reads were used for downstream analysis.
 
 ### Transcript quantification
 
