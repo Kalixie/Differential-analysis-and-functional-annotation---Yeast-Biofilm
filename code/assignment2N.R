@@ -101,7 +101,9 @@ processresults <- function(res) {
 # Process all comparisons
 
 df_MvE <- processresults(res_Mature_vs_Early)
+
 df_TvE <- processresults(res_Thin_vs_Early)
+
 df_MvT <- processresults(res_Mature_vs_Thin)
 
 
@@ -202,6 +204,22 @@ plotheatmap(res_Mature_vs_Early, vsd, dds, title = "Mature vs Early")
 plotheatmap(res_Thin_vs_Early, vsd, dds, title = "Thin vs Early")
 
 plotheatmap(res_Mature_vs_Thin, vsd, dds, title = "Mature vs Thin")
+
+# Top DEG tables
+
+getTopDEGs <- function(df, n = 15) {
+  df %>%
+    arrange(padj) %>%
+    mutate(Regulation = ifelse(log2FoldChange > 0, "Up", "Down")) %>%
+    dplyr::select(gene, log2FoldChange, padj, Regulation) %>%
+    head(n)
+}
+
+# Apply to each pairwise
+
+topMvE <- getTopDEGs(df_MvE)
+topTvE <- getTopDEGs(df_TvE)
+topMvT <- getTopDEGs(df_MvT)
 
 # Run GO ORA and create ----
 
