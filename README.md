@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Through the use of *Saccharomyces cerevisiae* velum RNA samples, this study aimed to explore the transcriptional changes associated with three different sampling points. Biofilm formation is a survival strategy used by many microorganisms, including *Saccharomyces cerevisiae*, and allows cells to survive harsh environments through altered gene expression (Mardanov et al., 2020). By studying biofilm at the early (38 days), thin formation (83 days), and mature stages (109 days), it is possible to analyze how gene expression changes over time, and what biological processes are associated with said genes. 
+Through the use of *Saccharomyces cerevisiae* velum RNA samples, this study aimed to explore the transcriptional changes associated with three different sampling points. Biofilm formation is a survival strategy used by many microorganisms, including *Saccharomyces cerevisiae*, and allows cells to survive harsh environments through altered gene expression (Mardanov et al., 2020). By studying biofilm at the early (38 days), thin formation (83 days), and mature stages (109 days) post-inoculation, it is possible to analyze how gene expression changes over time, and what biological processes are associated with said genes. 
 
 The data used in this study were collected from publicly available bulk RNA sequencing data from three stages of velum development (early, thin, and mature) under winemaking conditions, each with three replicate samples (Mardanov et al., 2020). Several computational tools were selected to complete an efficient analysis of the data. 
 
