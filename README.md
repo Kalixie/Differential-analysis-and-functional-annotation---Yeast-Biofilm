@@ -37,6 +37,10 @@ Biological interpretation of differentially expressed genes was performed using 
 
 ## Results
 
+![pca](https://github.com/Kalixie/Differential-analysis-and-functional-annotation---Yeast-Biofilm/blob/main/figures/pca.png)
+
+##### Figure #1: PCA Results for Early, Thin, and Mature stages. Clusters can be distinctly identified with PC one accounting for 67% of variance, and PC two accounting for 25%
+
 The results of the Principal component analysis revealed large differences in gene expression among the three developmental stages. The first principal component explained 67% of the total variance and clearly separated samples, with Early samples clustering on the negative side and Mature samples clustering on the positive side, with great distinction. Thin stage samples were positioned between Early and Mature stages, which aligns with it acting as an intermediate developmental state. The second principal component, which accounted for 26% of the variance, further distinguished the Thin samples from the other stages. Replicates within each stage clustered tightly together, indicating groups had low variability within themselves, although the thin group was slightly more spread out. Overall, the PCA demonstrates a difference across stage data that follows a clear progression from Early to Thin to Mature.
 
 ##### Table #1: Summary of differentially expressed genes across biofilm developmental stages. The table shows the number of genes significantly upregulated, downregulated, and the total number of significant genes for each pairwise comparison.
