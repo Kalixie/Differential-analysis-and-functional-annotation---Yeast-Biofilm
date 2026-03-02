@@ -78,6 +78,32 @@ The results of the volcano plots demonstrated that Mature vs Early showed the la
 
 ##### Figure #3: Heatmap Results for the top 20 genes based on padj for the Mature vs Early stage. Red indicates higher expression, while blue indicates lower expression patterns. Gene names are listed on the right, and sample IDs are included below.
 
+##### Table #2: Top 15 differentially expressed genes between the Mature and Early biofilm stages. Genes are ranked by adjusted p-value (padj), and their regulation status is indicated as upregulated (positive log2 fold change) or downregulated (negative log2 fold change).
+
+</div>
+
+<div align="center">
+
+| gene    | log2FoldChange | padj          | Regulation |
+|---------|----------------|---------------|------------|
+| YJL052W |      -5.353488 | 4.680596e-163 | Down       |
+| YGL055W |      -4.644266 | 3.489772e-139 | Down       |
+| YGR087C |      -5.012485 | 7.191601e-130 | Down       |
+| YIR019C |       5.438515 | 3.398147e-128 | Up         |
+| YHR094C |      -5.003554 | 9.573712e-127 | Down       |
+| YNR073C |       8.238284 | 1.869696e-115 | Up         |
+| YNR071C |       9.042503 | 6.530829e-107 | Up         |
+| YNR072W |       5.602504 | 9.043636e-106 | Up         |
+| YKL164C |       4.018557 | 2.083686e-104 | Up         |
+| YJR152W |      -3.418411 | 3.999870e-102 | Down       |
+| YCR012W |      -4.234267 |  9.404119e-91 | Down       |
+| YOR273C |      -3.981529 |  6.357740e-84 | Down       |
+| YJL158C |       4.353273 |  1.587453e-83 | Up         |
+| YGR088W |      -4.397789 |  3.241932e-76 | Down       |
+| YPL106C |       3.285966 |  2.908911e-74 | Up         |
+
+</div>
+
 The results of the heatmaps generated depict how specific gene logfoldchange values vary between stages for the top 20 differentially expressed genes. One group of genes was highly expressed in Early samples and downregulated in Thin and Mature stages which included genes such as YGR088W and YGR087C. Another group showed the opposite trend, with low expression in Early stages and higher expression in Mature stages, and included genes such as YNR073C and YNR072W. 
 
 </div>
